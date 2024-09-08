@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Quiz Page</title>
+    <link rel="stylesheet" href="quizstyle.css">
+</head>
+<body>
+    <header>
+        <h1>My Quiz Page</h1>
+    </header>
+
+    <section>
+        <form id="quiz-form">
+            <!-- 첫 번째 질문: 객관식 1 -->
+            <div class="question">
+                <h3>1. 다음 중 우리나라의 애니메이션이 아닌 것은?</h3>
+                <label><input type="radio" name="q1" value="a"> 아기공룡 둘리</label><br>
+                <label><input type="radio" name="q1" value="b"> 머털도사</label><br>
+                <label><input type="radio" name="q1" value="c"> 마당을 나온 암탉</label><br>
+                <label><input type="radio" name="q1" value="d"> 원피스</label><br>
+            </div>
+
+            <!-- 두 번째 질문: 객관식 2 -->
+            <div class="question">
+                <h3>2. 다음 중 역대 최고의 프로게이머와 가장 거리가 먼 사람은? </h3>
+                <label><input type="radio" name="q2" value="a"> 이상혁</label><br>
+                <label><input type="radio" name="q2" value="b"> 임요환</label><br>
+                <label><input type="radio" name="q2" value="c"> 이병건</label><br>
+                <label><input type="radio" name="q2" value="d"> 이영호</label><br>
+            </div>
+
+            <!-- 세 번째 질문: 단답형 -->
+            <div class="question">
+                <h3>3. 양손과 입에 문 세자루의 검을 휘두르며 싸우는 조로의 독창적인 검술의 이름은?</h3>
+                <input type="text" name="q3" placeholder="Enter your answer here">
+            </div>
+
+            <button type="button" id="submit-btn">Submit</button>
+        </form>
+    </section>
+
+    <script src="quizscript.js"></script>
+</body>
+</html>
